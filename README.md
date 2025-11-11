@@ -1,8 +1,15 @@
 # MLOps & Cloud Infrastructure Portfolio
 
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Code](https://img.shields.io/badge/Full_Code-Private_Repo-orange.svg)
+![Commits](https://img.shields.io/badge/Commits-219+-brightgreen.svg)
+
 **Production-grade MLOps infrastructure and healthcare data pipelines**
 
 Showcasing expertise in AWS, Kubernetes, Terraform, Python, and healthcare IT systems.
+
+> **📦 Note**: This is the **public overview portfolio**. **Full implementation code (40+ files, 5000+ lines) is maintained in a private repository** and is available upon request for hiring evaluation or collaboration discussions.
 
 ---
 
@@ -290,25 +297,53 @@ Production-ready Python packages in monorepo structure:
 
 ## 🔒 Full Implementation Access
 
-This public portfolio showcases architecture and design patterns. **Detailed implementations are available upon request** for serious inquiries.
+This public portfolio showcases architecture and design patterns. **Detailed implementations are maintained in a private repository** and are available upon request for serious inquiries.
 
-### Available Materials:
-- ✅ Complete Terraform configurations (dual-VPC, security groups, ALB)
-- ✅ Production MLOps pipeline code (ClearML, Airflow, Spot autoscaler)
-- ✅ Healthcare integration implementations (FHIR, PACS/DICOM)
-- ✅ Kubernetes manifests (complete GitOps setup)
-- ✅ Python package source code (16+ packages)
-- ✅ Architecture Decision Records (ADRs)
-- ✅ Performance benchmarks and metrics
+### 📦 Private Repository Contents
 
-### How to Request Access:
+The private repository includes full source code with complete Git history (219+ commits):
+
+**Available Materials:**
+- ✅ **AWS Terraform IaC** - Complete dual-VPC configurations
+  - `vpc.tf` (400+ lines) - Multi-AZ VPC architecture
+  - `security_groups.tf` (300+ lines) - Zero-trust security policies
+  - `alb.tf` (350+ lines) - Load balancer with Route53/ACM integration
+  - `main.tf`, `variables.tf`, `userdata.sh`
+
+- ✅ **MLOps Pipelines** - Production pipeline implementations
+  - `clearml_pipeline.py` (200+ lines) - 4-stage ML workflow
+  - `spot_autoscaler.py` (250+ lines) - EC2 auto-scaling logic
+  - `airflow_dag.py` (180+ lines) - End-to-end ML DAG
+
+- ✅ **Healthcare Integration** - FHIR & DICOM clients
+  - `fhir_integration.py` (300+ lines) - Async FHIR R4 client
+  - `pacs_dicom_client.py` (350+ lines) - PyNetDICOM integration
+
+- ✅ **Kubernetes GitOps** - Complete manifest suite
+  - 9 YAML files (1100+ lines total)
+  - MLflow, Airflow, PostgreSQL, Redis, ClearML deployments
+  - Network policies, RBAC, Kustomize configs
+
+- ✅ **HPC SLURM Cluster** - Dockerized cluster setup
+  - Dockerfiles, SLURM configs, docker-compose orchestration
+
+- ✅ **Python ML Packages** - 16+ production packages
+  - Full source code for `ml_inference`, `dicom_processor`, `fhir_client`
+  - Monorepo setup with pre-commit hooks
+
+### 🔑 How to Request Access
 
 Please contact via email or LinkedIn with:
 1. Brief introduction of your organization
 2. Specific materials you're interested in reviewing
 3. Intended use case (hiring evaluation, collaboration, etc.)
 
-Access to the **private repository** with full implementation details is granted on a case-by-case basis.
+**Access Process:**
+- Private repository invitation will be sent to your GitHub account
+- You can review full implementation code and Git commit history
+- Access is granted on a case-by-case basis for verified opportunities
+
+**Response Time:** Usually within 24-48 hours for legitimate inquiries
 
 ---
 
