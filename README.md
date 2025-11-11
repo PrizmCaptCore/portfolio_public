@@ -91,6 +91,33 @@ Senior MLOps Engineer with hands-on experience building production ML infrastruc
 
 ---
 
+## 🔗 Repository Structure
+
+This public repository contains:
+- Architecture documentation and diagrams
+- Technology stack descriptions
+- Design patterns and principles
+
+The full implementation code is maintained in a **private Git submodule**:
+```
+portfolio_public/               (this repo - PUBLIC)
+├── README.md                   (this file)
+├── LICENSE
+├── .gitmodules                 (submodule configuration)
+├── SUBMODULE_INFO.md          (submodule access guide)
+└── private-implementations/    → https://github.com/PrizmCaptCore/portfolio.git (PRIVATE)
+    ├── 1-aws-terraform-iac/    (40+ files, 5000+ lines of IaC)
+    ├── 2-mlops-pipelines/
+    ├── 3-healthcare-integration/
+    ├── 4-kubernetes-gitops/
+    ├── 5-hpc-cluster/
+    └── 6-python-packages/
+```
+
+See [SUBMODULE_INFO.md](SUBMODULE_INFO.md) for details on accessing the private submodule.
+
+---
+
 ## 📁 Portfolio Sections
 
 ### 1. AWS Terraform Infrastructure
